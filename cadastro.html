@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Voluntário - ONG Esperança</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Cadastro de Voluntários</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <form>
+      <fieldset>
+        <legend>Informações Pessoais</legend>
+        <div>
+          <label>Nome Completo:
+            <input type="text" name="nome" required />
+          </label>
+        </div>
+        <!-- <div>
+          <label for="input-nome">Nome completo:</label>
+          <input id="input-nome" type="text" name="nome" required />
+        </div> -->
+        <div>
+          <label>Email:
+            <input type="email" name="email" required /> <!-- Isso aqui eh pra sei la -->
+          </label>
+        </div>
+        <div>
+          <label>CPF:
+            <input type="text" name="cpf" required pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="000.000.000-00"
+              maxlength="14" />
+          </label>
+        </div>
+        <div>
+          <label>Telefone:
+            <input type="tel" name="telefone" required placeholder="(00)00000-0000" pattern="\(\d{2}\)\d{5}-\d{4}"
+              maxlength="14" />
+          </label>
+        </div>
+        <div>
+          <label>Data de Nascimento:
+            <input type="date" name="data_nascimento" required />
+          </label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Endereço</legend>
+        <div>
+          <label>Endereço:
+            <input type="text" name="endereco" required />
+          </label>
+        </div>
+        <div>
+          <label>CEP:
+            <input type="text" name="cep" required pattern="\d{5}-\d{3}" placeholder="00000-000" maxlength="9" />
+          </label>
+        </div>
+        <div>
+          <label>Cidade:
+            <input type="text" name="cidade" required />
+          </label>
+        </div>
+        <div>
+          <label>Estado:
+            <input type="text" name="estado" required maxlength="2" />
+          </label>
+        </div>
+      </fieldset>
+
+      <button type="submit">Enviar Cadastro</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ONG Esperança</p>
+  </footer>
+
+</body>
+
+</html>
