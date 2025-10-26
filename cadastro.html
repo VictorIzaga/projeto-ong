@@ -18,7 +18,9 @@
               <ul>
                 <li><a href="index.html">Início</a></li>
                 <li><a href="projetos.html">Projetos</a></li>
-                <li><a class="menu-active" href="cadastro.html">Cadastro</a></li>
+                <li>
+                  <a class="menu-active" href="cadastro.html">Cadastro</a>
+                </li>
               </ul>
             </nav>
           </div>
@@ -30,93 +32,99 @@
     </header>
 
     <main>
-      <form>
-        <fieldset>
-          <legend>Informações Pessoais</legend>
-          <div>
-            <label
-              >Nome Completo:
-              <input type="text" name="nome" required />
-            </label>
-          </div>
+      <div class="main-container">
+        <form>
+          <fieldset>
+            <legend>Informações Pessoais</legend>
 
-          <div>
-            <label
-              >Email:
-              <input type="email" name="email" required />
-            </label>
-          </div>
-          <div>
-            <label
-              >CPF:
-              <input
-                type="text"
-                name="cpf"
-                required
-                pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
-                placeholder="000.000.000-00"
-                maxlength="14"
-              />
-            </label>
-          </div>
-          <div>
-            <label
-              >Telefone:
-              <input
-                type="tel"
-                name="telefone"
-                required
-                placeholder="(00)00000-0000"
-                pattern="\(\d{2}\)\d{5}-\d{4}"
-                maxlength="14"
-              />
-            </label>
-          </div>
-          <div>
-            <label
-              >Data de Nascimento:
-              <input type="date" name="data_nascimento" required />
-            </label>
-          </div>
-        </fieldset>
+            <div class="grid grid-5">
+              <div class="input-item">
+                <label
+                  >Nome Completo:
+                  <input type="text" name="nome" required />
+                </label>
+              </div>
+              <div class="input-item">
+                <label
+                  >Email:
+                  <input type="email" name="email" required />
+                </label>
+              </div>
+              <div class="input-item">
+                <label
+                  >CPF:
+                  <input
+                    type="text"
+                    name="cpf"
+                    required
+                    pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
+                    placeholder="000.000.000-00"
+                    maxlength="14"
+                  />
+                </label>
+              </div>
+              <div class="input-item">
+                <label
+                  >Telefone:
+                  <input
+                    type="tel"
+                    name="telefone"
+                    required
+                    placeholder="(00)00000-0000"
+                    pattern="\(\d{2}\)\d{5}-\d{4}"
+                    maxlength="14"
+                  />
+                </label>
+              </div>
+              <div class="input-item">
+                <label
+                  >Data de Nascimento:
+                  <input type="date" name="data_nascimento" required />
+                </label>
+              </div>
+            </div>
+          </fieldset>
 
-        <fieldset>
-          <legend>Endereço</legend>
-          <div>
-            <label
-              >Endereço:
-              <input type="text" name="endereco" required />
-            </label>
-          </div>
-          <div>
-            <label
-              >CEP:
-              <input
-                type="text"
-                name="cep"
-                required
-                pattern="\d{5}-\d{3}"
-                placeholder="00000-000"
-                maxlength="9"
-              />
-            </label>
-          </div>
-          <div>
-            <label
-              >Cidade:
-              <input type="text" name="cidade" required />
-            </label>
-          </div>
-          <div>
-            <label
-              >Estado:
-              <input type="text" name="estado" required maxlength="2" />
-            </label>
-          </div>
-        </fieldset>
+          <fieldset>
+            <legend>Endereço</legend>
+            <div class="grid grid-4">
+              <div class="input-item">
+                <label
+                  >Endereço:
+                  <input type="text" name="endereco" required />
+                </label>
+              </div>
+              <div class="input-item">
+                <label
+                  >CEP:
+                  <input
+                    type="text"
+                    name="cep"
+                    required
+                    pattern="\d{5}-\d{3}"
+                    placeholder="00000-000"
+                    maxlength="9"
+                  />
+                </label>
+              </div>
+              <div class="input-item">
+                <label
+                  >Cidade:
+                  <input type="text" name="cidade" required />
+                </label>
+              </div>
+              <div class="input-item">
+                <label
+                  >Estado:
+                  <input type="text" name="estado" required maxlength="2" />
+                </label>
+              </div>
+            </div>
+          </fieldset>
 
-        <button type="submit">Enviar Cadastro</button>
-      </form>
+          <button type="submit">Enviar Cadastro</button>
+        </form>
+      </div>
     </main>
 
     <footer>
