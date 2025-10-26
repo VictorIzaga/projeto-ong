@@ -4,6 +4,7 @@
 html {
   font-size: var(--font-size);
 }
+
 p {
   margin-bottom: var(--s-2);
 }
@@ -32,9 +33,16 @@ input {
   font-size: 1rem;
 }
 footer {
-  padding: var(--s-5) 0px;
   text-align: center;
   font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-secondary);
+  color: var(--fg-secondary);
+}
+footer > p {
+  margin: 0;
 }
 main {
   display: flex;

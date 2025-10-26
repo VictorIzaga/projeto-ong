@@ -2,7 +2,7 @@
   background-color: var(--bg-primary);
   display: flex;
   justify-content: center;
-  height: var(--s-16);
+  height: var(--topbar-h);
 }
 .topbar-content {
   width: 80%;
@@ -44,7 +44,7 @@
 }
 
 .banner {
-  height: var(--s-37);
+  height: var(--banner-h);
   background-image: var(--url-banner);
   background-repeat: no-repeat;
   background-position: center;
@@ -68,4 +68,14 @@
 }
 .input-item > label > input {
   display: block;
+}
+
+.content {
+  height: 100vh;
+  display: grid;
+  grid-template: var(--header-h) auto var(--footer-h) / auto;
+}
+
+.img {
+  width: 150px;
 }

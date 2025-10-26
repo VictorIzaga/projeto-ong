@@ -2,6 +2,7 @@
 @import url("./reset.css");
 @import url("./components.css");
 @import url("./style.css");
+@import url("./responsive.css");
 
 .justify {
   text-align: justify;
