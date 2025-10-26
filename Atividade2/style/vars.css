@@ -1,0 +1,35 @@
+:root {
+  --bg-primary: #023a02;
+  --fg-primary: #e4e0e0;
+
+  --bg-secondary: #035803;
+  --fg-secondary: #ffffff;
+
+  --bg-active: #1d8da3;
+  --fg-active: #000000;
+
+  --bg-disabled: #bff4a6;
+  --fg-disabled: #90cc74;
+
+  --shadow-color: gray;
+
+  --url-banner: url("../assets/imagens/banner-site2.png");
+
+  --font-size: 14px;
+  --spacing: 4px;
+  --s-1: calc(var(--spacing) * 1);
+  --s-2: calc(var(--spacing) * 2);
+  --s-3: calc(var(--spacing) * 3);
+  --s-4: calc(var(--spacing) * 4);
+  --s-5: calc(var(--spacing) * 5);
+  --s-6: calc(var(--spacing) * 6);
+  --s-16: calc(var(--spacing) * 16);
+  --s-37: calc(var(--spacing) * 37);
+
+  --s-2n: calc(var(--spacing) * -2);
+
+  --box-shadow: var(--s-2n) 0px var(--s-2) 0px var(--shadow-color),
+    var(--s-2) 0px var(--s-2) 0px var(--shadow-color);
+
+    --radius-big: 15px;
+}
