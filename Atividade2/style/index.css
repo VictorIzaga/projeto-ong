@@ -1,19 +1,6 @@
-@import url("./vars.css");
-@import url("./reset.css");
-@import url("./components.css");
-@import url("./style.css");
-@import url("./responsive.css");
-
-.justify {
-  text-align: justify;
-}
-
-.grid {
-  display: grid;
-}
-.grid-4 {
-  grid-template-columns: auto auto auto auto;
-}
-.grid-5 {
-  grid-template-columns: auto auto auto auto auto;
-}
+@import url("./vars.css"); /* Variáveis CSS */
+@import url("./reset.css"); /* Reset global */
+@import url("./components.css"); /* Estilização de componentes HTML padrão */
+@import url("./style.css"); /* Estilização personalizada */
+@import url("./layout.css"); /* Regras de layout */
+@import url("./responsive.css"); /* Regras de responsividade */
