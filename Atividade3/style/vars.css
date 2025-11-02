@@ -1,0 +1,39 @@
+:root {
+  --font-size: 14px;
+  --spacing: 4px;
+  --radius-small: 5px;
+  --radius-big: 15px;
+  --url-banner: url("../assets/imagens/banner-site2.png");
+  --box-shadow: -8px 0px 8px 0px gray, 8px 0px 8px 0px gray;
+
+  --topbar-h: 64px;
+  --banner-h: 150px;
+  --header-h: calc(var(--topbar-h) + var(--banner-h));
+  --footer-h: 50px;
+
+  --bg-primary: #023a02;
+  --fg-primary: #e4e0e0;
+
+  --bg-secondary: #035803;
+  --fg-secondary: #ffffff;
+
+  --bg-active: #1d8da3;
+  --fg-active: #000000;
+
+  --bg-disabled: #bff4a6;
+  --fg-disabled: #90cc74;
+
+  --bg-danger: #f4bdbd;
+  --fg-danger: #8d0c0c;
+
+  --bg-success: #bdf4c1;
+  --fg-success: #0a3903;
+
+  --s-1: calc(var(--spacing) * 1);
+  --s-2: calc(var(--spacing) * 2);
+  --s-3: calc(var(--spacing) * 3);
+  --s-4: calc(var(--spacing) * 4);
+  --s-5: calc(var(--spacing) * 5);
+  --s-6: calc(var(--spacing) * 6);
+  --s-2n: calc(var(--spacing) * -2);
+}

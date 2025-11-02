@@ -1,0 +1,6 @@
+@import url("./vars.css"); /* Variáveis CSS */
+@import url("./reset.css"); /* Reset global */
+@import url("./components.css"); /* Estilização de componentes HTML padrão */
+@import url("./style.css"); /* Estilização personalizada */
+@import url("./layout.css"); /* Regras de layout */
+@import url("./responsive.css"); /* Regras de responsividade */
